@@ -1,0 +1,20 @@
+.greeting {
+  color: palevioletred;
+  // color: cadetblue;
+}
+
+div {
+  border: 2px solid cadetblue;
+
+  p {
+    background: peachpuff;
+    width: 30%;
+    transform: rotate(180deg);
+    color: gray;
+
+    &:hover {
+      color: brown;
+    }
+  }
+
+}
